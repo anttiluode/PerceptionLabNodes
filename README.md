@@ -1,5 +1,7 @@
 # PerceptionLabNodes
 
+**NEW: [PerceptionLabAI](https://github.com/anttiluode/PerceptionLabAI)** is the collaborative experiment workshop for the nodes documented here. Humans and AI contributors connect and test workflows, preserve controlled results (including failures), and propose proven reusable nodes and graphs back to [PerceptionLab](https://github.com/anttiluode/PerceptionLab). [Read the operating model](https://github.com/anttiluode/PerceptionLab/blob/main/docs/AI_COLLABORATION.md). The first node/workflow contribution has [already been merged](https://github.com/anttiluode/PerceptionLab/pull/1).
+
 **[Open the fossil-bed page →](https://anttiluode.github.io/PerceptionLabNodes/)** A genealogy of every node file and saved workflow in [PerceptionLab](https://github.com/anttiluode/PerceptionLab): 466 node files dated by first commit, eighteen clans, code-similarity forks, marked workflows, lost node classes, a headless audit and an idea pump of cross-strata crossings. Linked from the [Genealogy atlas](https://anttiluode.github.io/Genealogy/#nov15-perceptionlab-nodes).
 
 Most of PerceptionLab is random by design: nodes written by earlier AIs, graphs wired by name rather than by physics. The page treats it as a seed bank and a fossil record, not as results. What was actually measured (15 Nov 2026, headless):

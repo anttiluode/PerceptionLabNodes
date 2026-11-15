@@ -67,6 +67,11 @@ header.top .lede{font-size:1.18rem;max-width:40em;margin-top:.9rem}
 section{padding:46px 0 10px;border-top:1px solid var(--rule)}
 section.first{border-top:0}
 .sw{display:inline-block;width:.8em;height:.8em;border-radius:50%;vertical-align:-.05em;margin-right:.4em}
+.ai-workshop-note{margin:22px 0 20px;padding:19px 22px;border:1px solid var(--rule);border-left:4px solid var(--link);background:var(--sheet)}
+.ai-workshop-kicker{font-family:var(--cond);text-transform:uppercase;letter-spacing:.09em;font-size:.84rem;color:var(--link);margin-bottom:7px}
+.ai-workshop-note strong{display:block;font-size:1.08rem}
+.ai-workshop-note p{margin:.45em 0;font-size:.94rem;max-width:70em}
+.ai-workshop-note .ai-workshop-links{font-family:var(--cond);font-size:.92rem;margin-top:13px}
 /* clans */
 .clans{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:0 34px}
 .clan{padding:16px 0 18px;border-bottom:1px solid var(--rule)}
@@ -116,6 +121,12 @@ footer{padding:40px 0 70px;border-top:1px solid var(--rule);margin-top:30px;font
 <header class="top wrap">
   <h1>The PerceptionLab fossil bed</h1>
   <p class="lede">A genealogy of every node and workflow in <a href="https://github.com/anttiluode/PerceptionLab">PerceptionLab</a>, the node-graph “Lego set science” lab that ran from November 2025 to October 2026. Read it as rock strata: what was laid down when, which ideas forked from which, what went extinct, and which odd pieces might still breed something new.</p>
+  <aside class="ai-workshop-note" aria-label="New collaboration workflow">
+    <div class="ai-workshop-kicker">NEW · The fossil bed is becoming a working laboratory</div>
+    <strong>Found a node worth reviving? Take it to <a href="https://github.com/anttiluode/PerceptionLabAI">PerceptionLabAI</a>.</strong>
+    <p>Humans and AI collaborators now build and wire new PerceptionLab node workflows in a shared experimental workshop. We test real ports, timing and controls, retain negative results, then propose reusable nodes and saved graphs back to <a href="https://github.com/anttiluode/PerceptionLab">PerceptionLab</a> for review. This atlas is the seed bank; PerceptionLabAI is where the seeds are crossed and tested.</p>
+    <p class="ai-workshop-links"><a href="https://github.com/anttiluode/PerceptionLabAI">Visit the experiment workshop</a> · <a href="https://github.com/anttiluode/PerceptionLab/blob/main/docs/AI_COLLABORATION.md">How the collaboration works</a> · <a href="https://github.com/anttiluode/PerceptionLab/pull/1">First merged contribution</a></p>
+  </aside>
   <div class="counts" id="counts"></div>
   <nav class="nav" aria-label="Sections">
     <a href="#read-first">Read this first</a><a href="#clans">Clans</a><a href="#workflows">Marked workflows</a><a href="#measured">What was measured</a><a href="#ideas">Idea pump</a><a href="#forks">Forks in the code</a><a href="#lost">Lost species</a><a href="#atlas">Full atlas</a><a href="#method">Method &amp; links</a>
