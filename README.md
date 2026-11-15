@@ -1,3 +1,18 @@
+# PerceptionLabNodes
+
+**[Open the fossil-bed page →](https://anttiluode.github.io/PerceptionLabNodes/)** A genealogy of every node file and saved workflow in [PerceptionLab](https://github.com/anttiluode/PerceptionLab): 466 node files dated by first commit, eighteen clans, code-similarity forks, marked workflows, lost node classes, a headless audit and an idea pump of cross-strata crossings. Linked from the [Genealogy atlas](https://anttiluode.github.io/Genealogy/#nov15-perceptionlab-nodes).
+
+Most of PerceptionLab is random by design: nodes written by earlier AIs, graphs wired by name rather than by physics. The page treats it as a seed bank and a fossil record, not as results. What was actually measured (15 Nov 2026, headless):
+
+- `ecg.json` reproduces its **59-step** period; `wave_field_probe.json` gives **22.17** frames mean lag against **22.0** predicted.
+- `ecg_moebius_feedback.json` is **bit-identical** to the observer graph: `HomeostaticCouplerNode` computes `effective_gain` from `gain_mod` and never applies it.
+- In the saved `jewishstar.json` wiring the avalanche threshold is pushed to ~4,700, so **no avalanche** happens in 600 steps.
+- 458 of 466 node files import; `livingcheckerboardnode.py` (v3) does not compile; four nodes call an undefined `set_output`.
+
+Contents: [`index.html`](index.html) (the page), [`data/`](data) (genealogy data, audit and knob-test results), [`tools/`](tools) (headless runner, node audit, knob test, star replication). The technical paper that started this repository follows below.
+
+---
+
 # A Functional Taxonomy of PerceptionLab Nodes
 
 ## Signals, Fields, Memory, Control, and Learning in a Modular Computational Laboratory
